@@ -5,9 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    rel="stylesheet"/>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+    <header class="header">
+        <div class="top">
+            <div class="searchbar">
+                <label for="search">
+                <span class="material-icons-oulined search icon">search</span>
+                </label>
+                <input type="text" name="search" id="search"/>
+            </div>
+            <div class="account">
+                <button>
+                    <span class="material-icons-outlined"> notifications_active</span>
+                </button>
+                <div class="picture"></div>
+                <p class="name">Ginger Ginger</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="profile">
+            <div class="picture"></div>
+            <div class="profile-name">
+                <p class="greeting">Hello there,</p>
+                <p class="name">Ginger Ginger <span class="username">(@Ginger)</span></p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
+        </div>
+        </div>
+    </header>
     
 </body>
 </html>
